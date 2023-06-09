@@ -43,7 +43,7 @@ include "crud.php";
     
     body {
       background-color: #f2f2f2;
-    }
+    }           
     
     .container {
       display: flex;
@@ -54,7 +54,7 @@ include "crud.php";
     
     .login {
       background-color: #ffffff;
-      border-radius: 5px;
+      border-radius: 20px;
       box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
       padding: 40px;
       max-width: 400px;
@@ -87,7 +87,7 @@ include "crud.php";
       margin-bottom: 20px;
       font-size: 16px;
       transition: all 0.3s ease;
-    }
+    } 
     
     .login input[type="email"]:focus,
     .login input[type="password"]:focus {
@@ -96,10 +96,10 @@ include "crud.php";
     }
     
     .login button[type="submit"] {
-      background-color: #50b6bb;
+      background-color: #000000;
       color: #ffffff;
       border: none;
-      border-radius: 3px;
+      border-radius: 10px;
       padding: 12px 20px;
       font-size: 16px;
       cursor: pointer;
